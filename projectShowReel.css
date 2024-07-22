@@ -97,7 +97,7 @@ main {
     /* Image content box size */
 }
 
-.project-detail .video-container video{
+.project-detail .video-container iframe{
     width: 889px;
     height: 496px;
 }
@@ -187,7 +187,7 @@ footer .container {
         /* Image content box size */
     }
 
-    .project-detail .video-container video{
+    .project-detail .video-container iframe{
         height: 396px;
         width: 711px;
     }
@@ -246,7 +246,7 @@ footer .container {
         /* Image content box size */
     }
 
-    .project-detail .video-container video{
+    .project-detail .video-container iframe{
         height: 246px;
         width: 444px;
     }
@@ -273,5 +273,4 @@ footer .container {
         font-size: 15px;
         font-weight: 100;
     }
-
 }
