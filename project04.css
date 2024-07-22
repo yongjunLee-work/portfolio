@@ -1,6 +1,7 @@
 
 
 
+
 body {
     font-family: Helvetica, sans-serif;
     margin: 0;
@@ -99,7 +100,12 @@ main {
 
 }
 
-.project-detail .images img {
+.project-detail .video-container iframe{
+    width: 889px;
+    height: 496px;
+}
+
+.project-detail .images img .project-detail .video-container{
     margin-right: 0px; /* between images margin */
 }
 
@@ -174,6 +180,7 @@ footer .container {
         font-size: 10px;
     }
 
+
     .project-detail .images {
         display: flex;
         overflow-x: scroll;
@@ -181,6 +188,11 @@ footer .container {
         scrollbar-width: none;
         height: 400px;
         /* Image content box size */
+    }
+
+    .project-detail .video-container iframe{
+        height: 396px;
+        width: 711px;
     }
 
 
@@ -229,6 +241,7 @@ footer .container {
         font-size: 8px;
     }
 
+
     .project-detail .images {
         display: flex;
         overflow-x: scroll;
@@ -237,6 +250,12 @@ footer .container {
         height: 250px;
         /* Image content box size */
     }
+
+    .project-detail .video-container iframe{
+        height: 246px;
+        width: 444px;
+    }
+
 
     .project-detail .description h2 {
         font-size: 16px;
@@ -259,5 +278,4 @@ footer .container {
         font-size: 15px;
         font-weight: 100;
     }
-
 }
