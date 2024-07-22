@@ -1,6 +1,5 @@
 
 
-
 body {
     font-family: Helvetica, sans-serif;
     margin: 0;
@@ -98,6 +97,11 @@ main {
     /* Image content box size */
 }
 
+.project-detail .video-container video{
+    width: 800px;
+    height: 500px;
+}
+
 .project-detail .images img .project-detail .video-container{
     margin-right: 0px; /* between images margin */
 }
@@ -174,6 +178,19 @@ footer .container {
         font-size: 10px;
     }
 
+    .project-detail .images {
+        display: flex;
+        overflow-x: scroll;
+        margin-top: 100px;
+        scrollbar-width: none;
+        height: 400px;
+        /* Image content box size */
+    }
+
+    .project-detail .video-container video{
+        height: 400px;
+        width: 711px;
+    }
 
     .project-detail .description h2 {
         font-size: 16px;
@@ -218,6 +235,20 @@ footer .container {
 
     .overlay p {
         font-size: 8px;
+    }
+
+    .project-detail .images {
+        display: flex;
+        overflow-x: scroll;
+        margin-top: 100px;
+        scrollbar-width: none;
+        height: 250px;
+        /* Image content box size */
+    }
+
+    .project-detail .video-container video{
+        height: 250px;
+        width: 444px;
     }
 
 
