@@ -133,9 +133,6 @@ main {
     margin-bottom: 5px;
 }
 
-
-
-
 footer {
     background-color: #000000;
     color: #fff;
@@ -174,6 +171,15 @@ footer .container {
 
     .overlay p {
         font-size: 10px;
+    }
+
+    .project-detail .images {
+        display: flex;
+        overflow-x: scroll;
+        margin-top: 100px;
+        scrollbar-width: none;
+        height: 400px;
+        /* Image content box size */
     }
 
 
@@ -220,6 +226,15 @@ footer .container {
 
     .overlay p {
         font-size: 8px;
+    }
+
+    .project-detail .images {
+        display: flex;
+        overflow-x: scroll;
+        margin-top: 100px;
+        scrollbar-width: none;
+        height: 250px;
+        /* Image content box size */
     }
 
 
